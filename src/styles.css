@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Marcellus&family=Montserrat&family=Mulish:wght@400;500;700;800&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,300&family=Rubik:wght@300;400&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Marcellus&family=Montserrat:wght@400;500;700;900&family=Mulish:wght@400;500;700;800&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,300&family=Rubik:wght@300;400&family=Source+Sans+Pro&display=swap');
+* {
+    font-family: 'Montserrat';
+    margin: 0 auto;
+    box-sizing: border-box;   
+}
+.timer {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.timer__block{
+    background-color: #161616;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+.timer_container {
+    margin-top: 400px;
+    margin-bottom: 375px;
+    width: 1000px;
+    display: flex;
+}
+
+#days {
+    font-weight: 700;
+    font-family: 'Montserrat' sans-serif;
+    font-size: 96px;
+    color: #C8C8C8;
+}
+#hours {
+    font-weight: 700;
+    font-size: 96px;
+    color: #C8C8C8;
+}
+#minutes {
+    font-weight: 700;
+    font-size: 96px;
+    color: #C8C8C8;
+}
+#seconds {
+    font-weight: 700;
+    font-size: 96px;
+    color: #C8C8C8;
+}
